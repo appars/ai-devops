@@ -12,7 +12,7 @@ print(df)
 # visualize
 plt.plot(df["cpu"], label="CPU")
 plt.scatter(df.index, df["cpu"], c=df["anomaly"], cmap="coolwarm", label="Anomaly")
-plt.title("CPU Anomaly Detection")
+plt.title("CPU Anomaly Detection Tool")
 plt.legend()
 plt.show()
 
